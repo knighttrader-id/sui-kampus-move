@@ -1,10 +1,7 @@
 module kampus_token::kampus_token {
     use sui::coin::{Self, Coin, TreasuryCap};
     use sui::url::{Self, Url};
-    use sui::tx_context::TxContext;
-    use sui::transfer;
-    use std::option;
-    
+
     // === STRUCTS ===
     
     // One Time Witness untuk inisialisasi token
